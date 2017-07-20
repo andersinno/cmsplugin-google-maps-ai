@@ -1,0 +1,12 @@
+{% if api_key %}
+    <div class="google-maps-embed">
+        <iframe
+            width="100%"
+            height="{{ instance.embed_height }}"
+            frameborder="0"
+            src="https://www.google.com/maps/embed/v1/place?key={{ api_key }}&zoom={{ instance.zoom }}&q={{ instance.embed_q }}"
+            allowfullscreen
+        >
+        </iframe>
+    </div>
+{% endif %}
