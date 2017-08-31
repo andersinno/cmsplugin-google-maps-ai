@@ -1,0 +1,4 @@
+include README.md
+recursive-include cmsplugin_google_maps_ai *.*
+recursive-exclude cmsplugin_google_maps_ai ._*
+recursive-exclude cmsplugin_google_maps_ai .DS_Store

@@ -1,2 +1,0 @@
-cmsplugin-google-maps-ai
-========================
