@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='cmsplugin-google-maps-ai',
-    version='0.0.0',
+    version='0.0.1',
     author='Anders Innovations',
     author_email='info@anders.fi',
     packages=find_packages(
